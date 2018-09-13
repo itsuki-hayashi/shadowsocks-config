@@ -1,0 +1,21 @@
+{
+    "dscp": 46,
+    "fast_open": true,
+    "ipv6_first": false,
+    "method": "aes-256-gcm",
+    "mode": "tcp_and_udp",
+    "nameserver": "8.8.8.8,8.8.4.4",
+    "no_delay": true,
+    "nofile": 65536,
+    "password": "Remember-remember-the-4th-of-june-of-1989-the-tiananmen-square-and-massacre",
+    "plugin": "obfs-server",
+    "plugin_opts": "obfs=tls;failover=www.baidu.com:443;fast-open",
+    "reuse_port": true,
+    "server": [
+        "::",
+        "0.0.0.0"
+    ],
+    "server_port": 443,
+    "timeout": 60,
+    "user": "nobody"
+}
